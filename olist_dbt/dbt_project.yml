@@ -1,0 +1,42 @@
+name: 'olist_dbt'
+version: '1.0.0'
+
+# Profile de conexão com o banco (deve coincidir com o nome no profiles.yml)
+profile: 'olist_dbt'
+
+# Pastas do projeto
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+# Pastas a limpar com `dbt clean`
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+# Configuração dos modelos
+models:
+  olist_dbt:
+    staging:
+      schema: stg
+      materialized: table
+      tags: ['staging']
+
+    intermediate:
+      schema: int
+      materialized: table
+      tags: ['intermediate']
+
+    marts:
+      schema: marts
+      materialized: table
+      tags: ['marts']
+
+# Configuração dos seeds (caso existam)
+seeds:
+  olist_dbt:
+    schema: raw
+    tags: ['seed']
