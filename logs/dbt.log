@@ -1,0 +1,89 @@
+[0m18:34:04.914967 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8ac6448f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8ac6448380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8ac6448ef0>]}
+
+
+============================== 18:34:04.922232 | 5123b193-181d-41de-a9c7-0817b468ebfc ==============================
+[0m18:34:04.922232 [info ] [MainThread]: Running with dbt=1.9.4
+[0m18:34:04.923094 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/gildogomes/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init olist_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m18:34:04.963510 [debug] [MainThread]: Starter project path: /home/gildogomes/portfolio/olist_ecommerce/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m18:34:04.978650 [info ] [MainThread]: 
+Your new dbt project "olist_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:34:04.979124 [info ] [MainThread]: Setting up your profile.
+[0m18:36:53.847487 [info ] [MainThread]: Profile olist_dbt written to /home/gildogomes/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:36:53.850328 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 158.49457, "process_in_blocks": "66888", "process_kernel_time": 0.274365, "process_mem_max_rss": "99424", "process_out_blocks": "80", "process_user_time": 1.45023}
+[0m18:36:53.851437 [debug] [MainThread]: Command `dbt init` succeeded at 18:36:53.851179 after 158.50 seconds
+[0m18:36:53.852419 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8ac86b8440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8ac64698e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8ac69a6ba0>]}
+[0m18:36:53.854875 [debug] [MainThread]: Flushing usage events
+[0m18:36:54.711736 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:52:27.722044 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f630f1f3aa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f630d521100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f630d77ce30>]}
+
+
+============================== 18:52:27.727536 | 15c0bb7c-76f5-412a-bc50-aadb3dda2fc0 ==============================
+[0m18:52:27.727536 [info ] [MainThread]: Running with dbt=1.9.4
+[0m18:52:27.728159 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/gildogomes/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug --profile olist_dbt', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:52:27.757408 [info ] [MainThread]: dbt version: 1.9.4
+[0m18:52:27.757851 [info ] [MainThread]: python version: 3.12.3
+[0m18:52:27.758196 [info ] [MainThread]: python path: /home/gildogomes/portfolio/olist_ecommerce/.venv/bin/python3
+[0m18:52:27.758525 [info ] [MainThread]: os info: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m18:52:27.840437 [info ] [MainThread]: Using profiles dir at /home/gildogomes/.dbt
+[0m18:52:27.840975 [info ] [MainThread]: Using profiles.yml file at /home/gildogomes/.dbt/profiles.yml
+[0m18:52:27.841323 [info ] [MainThread]: Using dbt_project.yml file at /home/gildogomes/portfolio/olist_ecommerce/dbt_project.yml
+[0m18:52:27.842776 [info ] [MainThread]: adapter type: postgres
+[0m18:52:27.843219 [info ] [MainThread]: adapter version: 1.9.0
+[0m18:52:27.843687 [info ] [MainThread]: Configuration:
+[0m18:52:27.844084 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:52:27.844532 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m18:52:27.844947 [info ] [MainThread]: Required dependencies:
+[0m18:52:27.845443 [debug] [MainThread]: Executing "git --help"
+[0m18:52:27.847905 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:52:27.848475 [debug] [MainThread]: STDERR: "b''"
+[0m18:52:27.848952 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:52:27.849403 [info ] [MainThread]: Connection:
+[0m18:52:27.849799 [info ] [MainThread]:   host: localhost
+[0m18:52:27.850153 [info ] [MainThread]:   port: 5432
+[0m18:52:27.850561 [info ] [MainThread]:   user: admin
+[0m18:52:27.851027 [info ] [MainThread]:   database: olist_dw
+[0m18:52:27.851888 [info ] [MainThread]:   schema: public
+[0m18:52:27.852693 [info ] [MainThread]:   connect_timeout: 10
+[0m18:52:27.853565 [info ] [MainThread]:   role: None
+[0m18:52:27.854173 [info ] [MainThread]:   search_path: None
+[0m18:52:27.854763 [info ] [MainThread]:   keepalives_idle: 0
+[0m18:52:27.855212 [info ] [MainThread]:   sslmode: None
+[0m18:52:27.855638 [info ] [MainThread]:   sslcert: None
+[0m18:52:27.856215 [info ] [MainThread]:   sslkey: None
+[0m18:52:27.856829 [info ] [MainThread]:   sslrootcert: None
+[0m18:52:27.857450 [info ] [MainThread]:   application_name: dbt
+[0m18:52:27.858262 [info ] [MainThread]:   retries: 1
+[0m18:52:27.859034 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m18:52:27.925651 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m18:52:27.963369 [debug] [MainThread]: Using postgres connection "debug"
+[0m18:52:27.963771 [debug] [MainThread]: On debug: select 1 as id
+[0m18:52:27.964110 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:52:27.994112 [debug] [MainThread]: SQL status: SELECT 1 in 0.030 seconds
+[0m18:52:27.995033 [debug] [MainThread]: On debug: Close
+[0m18:52:27.995418 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m18:52:27.995822 [info ] [MainThread]: [31m1 check failed:[0m
+[0m18:52:27.996180 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/gildogomes/portfolio/olist_ecommerce/dbt_project.yml> not found
+
+[0m18:52:27.997121 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.32406268, "process_in_blocks": "59792", "process_kernel_time": 0.234665, "process_mem_max_rss": "107284", "process_out_blocks": "24", "process_user_time": 1.505771}
+[0m18:52:27.997702 [debug] [MainThread]: Command `dbt debug` failed at 18:52:27.997592 after 0.32 seconds
+[0m18:52:27.998047 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:52:27.998396 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f630ce49850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f630cd13e60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f630f354140>]}
+[0m18:52:27.998768 [debug] [MainThread]: Flushing usage events
+[0m18:52:28.737579 [debug] [MainThread]: An error was encountered while trying to flush usage events

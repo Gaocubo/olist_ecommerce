@@ -1,0 +1,24 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: olist_postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: olist_dw
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - olist_net
+
+volumes:
+  pgdata:
+
+networks:
+  olist_net:
+    driver: bridge
