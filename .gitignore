@@ -1,4 +1,27 @@
-.env
+# Ambientes virtuais
 .venv/
+venv/
+
+# Arquivos de configuração locais
+.env
+*.env
+
+# Cache do Python
 __pycache__/
-pgdata/
+*.py[cod]
+*.sqlite3
+
+# dbt
+dbt_packages/
+target/
+logs/
+
+# VS Code
+.vscode/
+
+# Dados temporários
+*.csv
+*.xlsx
+*.zip
+data/
+

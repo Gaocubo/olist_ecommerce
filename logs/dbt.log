@@ -87,3 +87,35 @@ Happy modeling!
 [0m18:52:27.998396 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f630ce49850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f630cd13e60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f630f354140>]}
 [0m18:52:27.998768 [debug] [MainThread]: Flushing usage events
 [0m18:52:28.737579 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:30:49.164667 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa555cf2d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa5554a6570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa5552cf3e0>]}
+
+
+============================== 12:30:49.171273 | 727892ee-ff6b-4538-9fcc-6382cf303489 ==============================
+[0m12:30:49.171273 [info ] [MainThread]: Running with dbt=1.9.4
+[0m12:30:49.171852 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/gildogomes/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run --select marts.dimensions.dim_pedidos', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:30:49.172301 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/gildogomes/portfolio/olist_ecommerce/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:30:49.174265 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.06640965, "process_in_blocks": "50904", "process_kernel_time": 0.212953, "process_mem_max_rss": "94360", "process_out_blocks": "16", "process_user_time": 1.502502}
+[0m12:30:49.174814 [debug] [MainThread]: Command `dbt run` failed at 12:30:49.174669 after 0.07 seconds
+[0m12:30:49.175236 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa555370590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa55526e2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa55534c740>]}
+[0m12:30:49.175650 [debug] [MainThread]: Flushing usage events
+[0m12:30:50.025404 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:31:20.143800 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f99789a14f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f99789a0260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f99789a01d0>]}
+
+
+============================== 12:31:20.146934 | cc2bd617-a454-4f96-8a59-0938d75682e5 ==============================
+[0m12:31:20.146934 [info ] [MainThread]: Running with dbt=1.9.4
+[0m12:31:20.147576 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/home/gildogomes/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run --select marts.dimensions.dim_pedidos', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:31:20.148160 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/gildogomes/portfolio/olist_ecommerce/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:31:20.149072 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.05325525, "process_in_blocks": "0", "process_kernel_time": 0.099759, "process_mem_max_rss": "94516", "process_out_blocks": "0", "process_user_time": 1.319042}
+[0m12:31:20.149605 [debug] [MainThread]: Command `dbt run` failed at 12:31:20.149455 after 0.05 seconds
+[0m12:31:20.150021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9978fa6ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9978646450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f997c45b680>]}
+[0m12:31:20.150437 [debug] [MainThread]: Flushing usage events
+[0m12:31:20.640130 [debug] [MainThread]: An error was encountered while trying to flush usage events
